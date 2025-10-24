@@ -13,8 +13,9 @@ conda activate valor
 pip install -r requirements.txt
 ```
 
-If you want to also add visual renderings of the contexts' trajectories, I find that you may have to run the following. This was very specific to my environment during testing and you may not need this. There may be bugs in the rendering depending what environment you're running on (i.e. a headless environment or not). At the very least the training shouuld work regardless.
+If you want to also add visual renderings of the contexts' trajectories, I find that you may have to run the following. This was very specific to my environment during testing and you may not need this. At the very least the training shouuld work regardless.
 ```bash
+pip install --upgrade --force-reinstall "mujoco==3.1.6" "gymnasium[mujoco]==1.2.1"
 conda install -c conda-forge -y "libstdcxx-ng>=13" "libgcc-ng>=13"
 ```
 

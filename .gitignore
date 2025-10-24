@@ -1,0 +1,5 @@
+weights/
+videos/
+
+*.gif
+*.pt

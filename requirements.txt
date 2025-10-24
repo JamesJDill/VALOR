@@ -1,6 +1,5 @@
 torch
 numpy
-gymnasium
-mujoco
-gymnasium[mujoco]
 matplotlib
+gymnasium[mujoco]
+ipykernel

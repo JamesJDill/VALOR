@@ -1,0 +1,12 @@
+name: valor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+      - gymnasium[mujoco]
+      - mujoco

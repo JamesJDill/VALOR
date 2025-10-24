@@ -16,3 +16,4 @@ pip install -r requirements.txt
 # Demo
 Run all the cells in demo.ipynb in order to run a training and see the associated evaluations/visualizations.
 
+This REPO was tested and trained using a GPU. CPU is untested but should work. Make sure to decrease NUM_ENVS during training if on CPU.
